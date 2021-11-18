@@ -5,8 +5,8 @@ import './App.css'
 import Home from './components/pages/Home'
 const App = () => {
   return (
-    <>
-    <Router>
+    <>                              
+    <Router>                   
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home}/>
@@ -14,6 +14,7 @@ const App = () => {
     </Router>
     </>
   )
-}
+}  
+//CARD COMPONENT COMMITING
 
 export default App
